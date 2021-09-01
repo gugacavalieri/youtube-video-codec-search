@@ -1,0 +1,33 @@
+{
+  "name": "youtube-video-codec-search",
+  "version": "1.0.0",
+  "description": "CLI to filter Youtube videos based on the desired Audio/Video Codec ",
+  "main": "index.js",
+  "scripts": {
+    "search": "node index.js",
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@me.github.com:gugacavalieri/youtube-video-codec-search.git"
+  },
+  "keywords": [
+    "youtube",
+    "codec",
+    "search",
+    "youtube-dl"
+  ],
+  "author": "Guga Cavalieri",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.1",
+    "axios": "^0.21.1",
+    "youtube-dl-wrap": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  }
+}
